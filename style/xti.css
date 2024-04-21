@@ -1,0 +1,135 @@
+/*IMPORT FONTS*/
+@font-face {
+    font-family: digital;
+    src: url(./digital.ttf);
+}
+@font-face {
+    font-family: code;
+    src: url(./code.otf);
+}
+@font-face {
+    font-family: Roboto-Light;
+    src: url(./Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(./Roboto-Regular.ttf);
+}
+/*BODY*/
+
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: Roboto-Regular;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER SECTION*/
+
+.header{
+    background-color: #181818;
+}
+
+.header h1{
+    color: #fff;
+    font-family: digital;
+    margin-left: 5px;
+}
+
+/*MENU SECTION*/
+.menu{
+    background-color: #313131;
+    padding: 7px 0;
+}
+
+.menu a{
+    color: #fff;
+    font-family: Roboto-Light;
+    text-decoration: none;
+
+    padding: 7px;
+    margin: -2px;
+    transition: 0.2s;
+
+}
+
+.menu a:hover{
+    background-color: #555555;
+}
+
+/*MAIN SECTION*/
+.main{
+    background-color: #181818;
+    margin: auto;
+    max-width: 70%;
+}
+
+.post_header{
+    background-color: #3f3f3f;
+    color:#d3d3d3;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.post_content{
+    padding: 10px;
+    color:#d3d3d3;
+}
+.post_content a{
+    color:#949494;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.post_content a:hover{
+    color:#ffffff;
+}
+.cite{
+    font-style:italic;
+    padding: 5px;
+    background-color: #2b2b2b;
+    color:#b9b9b9;
+    margin: 5px;
+}
+
+.code{
+    font-family: code;
+    padding: 5px;
+    background-color: #0f0f0f;
+    color:#3eaa3e;
+    margin: 5px;
+}
+
+.post_footer{
+    background-color: #2e2e2e;
+    color:#727272;
+    padding: 5px;
+}
+/*FOOTER SECTION*/
+.footer{
+    background-color: #0e0e0e;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+}
+
+.footer a{
+    color:#949494;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.footer a:hover{
+    color:#ffffff;
+}
+.footer p{
+    color:#dadada;
+    margin: auto;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+}
